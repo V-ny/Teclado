@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center mt-2 mb-5">Teclado escala de dó maior</h1>
+        <div class="text-center" style="height: 200px;">
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_c4">C</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_d4">D</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_e4">E</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_f4">F</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_g4">G</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_a4">A</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_b4">B</button>
+            <button type="button" class=" btn btn-outline-success fs-1 tecla h-100 tecla_c5">C</button>
+        </div>
+        <audio src="sounds/C4.mp3" id="som_tecla_c4"></audio>
+        <audio src="sounds/D4.mp3" id="som_tecla_d4"></audio>
+        <audio src="sounds/E4.mp3" id="som_tecla_e4"></audio>
+        <audio src="sounds/F4.mp3" id="som_tecla_f4"></audio>
+        <audio src="sounds/G4.mp3" id="som_tecla_g4"></audio>
+        <audio src="sounds/A4.mp3" id="som_tecla_a4"></audio>
+        <audio src="sounds/B4.mp3" id="som_tecla_b4"></audio>
+        <audio src="sounds/C5.mp3" id="som_tecla_c5"></audio>
+    </div>
+
+    <script src="tocador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
